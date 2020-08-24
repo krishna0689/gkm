@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>GKM TRAVELS</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->       
+        <link rel="shortcut icon" href="images/ico/favicon.svg">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="stylesheet" href="css/font-awesome.css">
+    </head>
+    <!--/head-->
+    <body>
+        <header class="navbar navbar-fixed-top wet-asphalt" role="banner">
+            <div class="container">
+                <div class="col-md-4 col-sm-6">
+                    <a class="navbar-brand  text-center" href="index.html"><img src="images/logo.svg"></a> 
+                </div>
+                <div class="col-md-8 col-sm-6">
+                    <div class="top-header">
+                        <div class="col-md-6 col-sm-6 contact">
+                            <img src="images/t-call.svg" alt="phoneicon">
+                            <span class="phone"> +91 97909 00737</span>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <ul class="login-main">
+                                <li>  
+                                    <a class="login" href="javascript:;">Customer Login</a> <img src="images/c-login.svg" alt="login in Sultan">
+                                </li> &nbsp;
+                                <li> <a class="login" href="javascript:;">Agent Login</a> <img src="images/a-login.svg" alt="Register in Sultan">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle nav-button" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="javascript:;">Print Ticket</a></li>
+                            <li><a href="javascript:;">Edit Ticket</a></li>
+                            <li><a href="javascript:;">Cancel Ticket</a></li>
+                            <li><a href="javascript:;">Contact</a></li>
+                            <li><a href="javascript:;">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <section id="main-slider" class="no-margin">
+            <div class="carousel slide wet-asphalt">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active" style="background-image: url(images/slider/slider1.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6 slider-text">
+                                    <div class="carousel-content centered">
+                                        <h1 class="animation animated-item-1"></h1>
+                                        <h2 class="animation animated-item-1"></h2>
+                                        <h3 class="animation animated-item-1"></h3>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 text-center track-fill">
+                                    <form>
+                                        <div class="col-md-12">
+                                            <h3 style="font-size: 30px;color: #130d74; font-weight: 600;">ONLINE BOOKING</h3>
+                                        </div><br>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="browser-default custom-select" id="from">
+                                                    <option value="" disabled="" selected="">From</option>
+                                                    <option value="1">Chennai</option>
+                                                    <option value="2">Coimbatore</option>
+                                                    <option value="3">Banglore</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="swapicon">
+                                            <img src="images/icon-swap.svg" alt="swap icon">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="browser-default custom-select" id="to">
+                                                    <option value="" disabled="" selected="">To</option>
+                                                    <option value="1">Chennai</option>
+                                                    <option value="2">Coimbatore</option>
+                                                    <option value="3">Banglore</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" id="srch_date" class="form-control"  placeholder="Journey Date"> 
+                                            <i class="fa fa-calendar cal"></i>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" id="return_date" class="form-control"  placeholder="Return Date"> 
+                                            <i class="fa fa-calendar cal"></i>
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <a href="javascript:;" type="submit" class="btn">Submit</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--/.item-->
+                    <div class="item" style="background-image: url(images/slider/slider1.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6 slider-text">
+                                    <div class="carousel-content centered">
+                                        <h2 class="animation animated-item-1"></h2>
+                                        <p class="animation animated-item-2"></p>
+                                    </div>                                
+                                </div>
+                                <div class="col-sm-6 text-center track-fill">
+                                    <form>
+                                        <div class="col-md-12">
+                                            <h3 style="font-size: 30px;color: #130d74; font-weight: 600;">ONLINE BOOKING</h3>
+                                        </div><br>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="browser-default custom-select" id="from">
+                                                    <option value="" disabled="" selected="">From</option>
+                                                    <option value="1">Chennai</option>
+                                                    <option value="2">Coimbatore</option>
+                                                    <option value="3">Banglore</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="swapicon">
+                                            <img src="images/icon-swap.svg" alt="swap icon">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="browser-default custom-select" id="to">
+                                                    <option value="" disabled="" selected="">To</option>
+                                                    <option value="1">Chennai</option>
+                                                    <option value="2">Coimbatore</option>
+                                                    <option value="3">Banglore</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" id="srch_date" class="form-control"  placeholder="Journey Date"> 
+                                            <i class="fa fa-calendar cal"></i>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" id="return_date" class="form-control"  placeholder="Return Date"> 
+                                            <i class="fa fa-calendar cal"></i>
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <a href="javascript:;" type="submit" class="btn">Submit</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.item-->
+                    <div class="item" style="background-image: url(images/slider/slider1.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6 slider-text">
+                                    <div class="carousel-content centered">
+                                        <h2 class="animation animated-item-1"></h2>
+                                        <p class="animation animated-item-2"></p>
+                                    </div>                                
+                                </div>
+                                <div class="col-sm-6 text-center track-fill">
+                                    <form>
+                                        <div class="col-md-12">
+                                            <h3 style="font-size: 30px;color: #130d74; font-weight: 600;">ONLINE BOOKING</h3>
+                                        </div><br>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="browser-default custom-select" id="from">
+                                                    <option value="" disabled="" selected="">From</option>
+                                                    <option value="1">Chennai</option>
+                                                    <option value="2">Coimbatore</option>
+                                                    <option value="3">Banglore</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="swapicon">
+                                            <img src="images/icon-swap.svg" alt="swap icon">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="browser-default custom-select" id="to">
+                                                    <option value="" disabled="" selected="">To</option>
+                                                    <option value="1">Chennai</option>
+                                                    <option value="2">Coimbatore</option>
+                                                    <option value="3">Banglore</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" id="srch_date" class="form-control"  placeholder="Journey Date"> 
+                                            <i class="fa fa-calendar cal"></i>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" id="return_date" class="form-control"  placeholder="Return Date"> 
+                                            <i class="fa fa-calendar cal"></i>
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <a href="javascript:;" type="submit" class="btn">Submit</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                <i class="icon-angle-left"></i>
+            </a>
+            <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                <i class="icon-angle-right"></i>
+            </a>
+        </section><!--/#main-slider-->
+
+        <section id="about-us">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-sm-6 about-text">
+                        <h2>ABOUT US</h2><br>
+                        <p>GKM Travels providing travel solutions to their passengers 
+                            with best in class quality by operating brand new fleets with 
+                            well experienced professionals. 
+                        </p>
+                        <p>Some of the Important routes of GKM include Gulbarga to 
+                            Bangalore Book Sultan Travels bus tickets online in website 
+                            and from your mobile with few easy steps.
+                        </p>
+                    </div><!--/.col-sm-6-->
+                    <div class="col-sm-6 text-center about-image">
+                        <img src="images/about-image.png">
+                    </div><!--/.col-sm-6-->
+                </div>
+            </div><!--/.row-->
+        </section>
+
+        <section id="services" class="emerald">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 text-center">
+                        <h2> AMENITIES </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icons icon-md">
+                                    <img src="images/bottle.svg">
+                                </i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Water Bottle</h3>
+                                <p> Purified Drinking Water,<br> help in full journey. </p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icons icon-md">
+                                    <img src="images/Papers.svg">
+                                </i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Tissue Papers</h3>
+                                <p> Improved hygiene, comfort,<br>
+                                    tissues. </p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icons icon-md">
+                                    <img src="images/GPS.svg">
+                                </i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">GPS Tracking</h3>
+                                <p> Live Tracking your<br>journey. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icons icon-md">
+                                    <img src="images/Charger.svg">
+                                </i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Mobile Charger</h3>
+                                <p> Portable socket for<br>
+                                    mobile charge.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icons icon-md">
+                                    <img src="images/Light.svg">
+                                </i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Reading Light</h3>
+                                <p> Help in reading the books,<br> etc in travel.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icons icon-md">
+                                    <img src="images/Blankets.svg">
+                                </i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Blankets</h3>
+                                <p> Well Washed, Hygenic <br> Blankets available.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#services-->
+
+        <section id="special" class="emerald">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 text-center">
+                        <h2> POPULAR ROUTES </h2>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-6 route-image text-center">
+                    <img src="images/routes.svg">
+                </div>
+                <div class="row">
+                    <div class="c"
+                </div>
+                </section>
+
+                <section id="bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Head office address:-</h4>
+                                <p>Old No 15, New No 33, Corporation <br>Colony,
+                                    Kodambakkam, Chennai- 600 024.<br>
+                                    Contact No :- 044 - 24833101/24806775.</p>
+                            </div><!--/.col-md-3-->
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Branch Address:- </h4>
+                                <p> Shop No. 25, Whannels Road,<br> 
+                                    Egmore, Chennai - 600 008. </p>
+                            </div><!--/.col-md-3-->
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Customer Care Contact No:- </h4>
+                                <p> +91 97909 00737. </p>
+                            </div><!--/.col-md-3-->
+                        </div>
+                    </div>
+                </section><!--/#bottom-->
+                <footer id="footer" class="midnight-blue">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6 text-center">
+                                <p> &copy; 2020 Powered by <a target="_blank" href="https://www.ezeeinfocloudsolutions.com/"> Ezeeinfo Colud Solutions.</a> All Rights Reserved</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </footer><!--/#footer-->
+
+                <script src="js/jquery.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/jquery.prettyPhoto.js"></script>
+                <script src="js/main.js"></script>
+                </body>
+                </html>
